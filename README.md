@@ -53,7 +53,7 @@ arduino = serial.Serial('COM8', 9600, timeout=1)
 3. Ejecutá el script en la terminal con:
 
 ```bash
-python detecta_rostro.py
+python main.py
 ```
 
 4. Pulsá la tecla **ESC** para salir.
