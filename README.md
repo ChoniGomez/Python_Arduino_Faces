@@ -27,7 +27,7 @@ Este proyecto utiliza **Python**, **OpenCV** y **Arduino** para detectar rostros
 ## 📦 Instalación de Dependencias
 
 ```bash
-pip install opencv-python
+pip install opencv-contrib-python
 pip install pyserial
 ```
 
