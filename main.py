@@ -1,13 +1,13 @@
 # 1ro en cmd python3 -m pip install opencv-python
 # https://github.com/opencv/opencv/tree/master/data/haarcascades
-import cv2  # Importa la librería OpenCV para el procesamiento de imágenes
+import cv2  # Importa la biblioteca OpenCV para el procesamiento de imágenes
 
 # para controlar arduino
 # pip install pyserial
 
 
-import serial  # Importa la librería PySerial para la comunicación con Arduino
-import time  # Importa la librería time para manejar retardos
+import serial  # Importa la biblioteca PySerial para la comunicación con Arduino
+import time  # Importa la biblioteca time para manejar retardos
 
 # Iniciar la conexión serial con Arduino en el puerto COM8 a 9600 baudios
 arduino = serial.Serial('COM8', 9600, timeout=1)
